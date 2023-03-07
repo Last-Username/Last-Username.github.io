@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
-<html>
-    <body>
-        <h1> Welcome to my web page!</h1>
+<head>
+    <meta charset="UTF-8">
+    <script src="main.js"></script>
+    <script src="https://phu-udayton.bitbucket.io/remote.js"></script>
+</head>
+
+<body onload="startTime()">
+    <br>
+    Current time: <div id="clock"></div>
+    <h1> Welcome to my web page!</h1>
     </p> This is the professional web page for Aaron Tilton, hosted on github pages. </p>
 
-        <div id="clickme" onclick="document.getElementById('clickme').innerHTML=Date()"> 
-             Hello 
-        </div>
+    <div id="clickme" onclick="document.getElementById('clickme').innerHTML=Date()"> 
+         Hello 
+    </div>
 </body>
-</html>
