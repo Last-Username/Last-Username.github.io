@@ -9,7 +9,7 @@ function showhide(){
                 document.getElementById('email').innerHTML = "show my email";
                 shown = false;
         }else{
-                var myemail = "<a href='mailto:tiltona1"+ "@" + "udayton.edu'>YOURemailID " +"@" + "udayton.edu</a>";
+                var myemail = "<a href='mailto:tiltona1"+ "@" + "udayton.edu'>tiltona1 " +"@" + "udayton.edu</a>";
                 document.getElementById('email').innerHTML= myemail;
                 shown = true;
         }
